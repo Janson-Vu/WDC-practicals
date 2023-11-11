@@ -1,0 +1,6 @@
+<p>AJAX is awesome because it allows us to load page content in the background.
+Server routes for AJAX requests are no different than other routes.
+AJAX response data can be any format.
+AJAX allows us to send HTTP requests using JavaScript.
+AJAX HTTP requests and non AJAX HTTP requests are treated equally by the server.
+</p>

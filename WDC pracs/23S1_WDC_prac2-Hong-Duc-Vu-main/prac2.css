@@ -1,0 +1,255 @@
+
+
+del {
+    color: gray;
+}
+
+a {
+    color: darkgreen;
+}
+
+mark {
+    color: darkblue;
+    background-color: pink;
+}
+
+
+pre {
+    font-family: monospace;
+}
+
+.transparent-text{
+    color: rgba(0,0,0,0.5)
+}
+
+body {
+    background-repeat: repeat;
+    background-image: url("cross.png");
+    background-color: #DCF5F5;
+}
+
+
+div#content {
+    background-color: white;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.blue {
+    color: blue;
+}
+
+.fancy {
+    font-family: cursive;
+}
+
+.blue-and-fancy {
+    color: blue;
+    font-family: cursive;
+}
+
+.red-border {
+    border: red solid 1px;
+}
+
+.red-outline{
+    outline: 1px solid red;
+}
+
+.red-border-div {
+    border: red solid 1px;
+}
+
+.blue-border-div {
+    border: blue solid 1px;
+}
+
+.top-red {
+    border-width: 1px;
+    border-style: solid;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom: 0px;
+    padding-top: 1px;
+}
+
+.bottom-blue {
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-color: blue;
+}
+
+
+hr {
+    border-color: #CFDFE4;
+}
+
+.outer-div1{
+    margin: 0px;
+    padding: 0px;
+    border: red solid 1px;
+    background-color: blue;
+}
+
+.inner-div1{
+    margin: 10px 10px 20px 20px;
+    background-color: yellow;
+    border: red solid 1px;
+    padding: 12px;
+    width: 700px;
+    height: 200px;
+    text-align: right;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+.outer-div2{
+    margin-top: 20px;
+    padding: 0px;
+    border: red solid 1px;
+    background-color: blue;
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+.inner-div2{
+    background-color: yellow;
+    margin: auto;
+    padding: 12px;
+    border: red solid 1px;
+    width: 400px;
+    height: 400px;
+    text-align: right;
+    display: block;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family:  sans-serif;
+}
+
+h2 {
+    font-family:  sans-serif;
+    text-align: left;
+}
+
+h3#task2-3-h3{
+    color: rgba(0,0,139,0.8);
+}
+
+.Raleway{
+    font-family: "Raleway", sans-serif;
+}
+
+.Noto{
+    font-family: "Noto Serif" , sans-serif;
+}
+
+#quote{
+    color: dimgray;
+    line-height: 1.5;
+    word-spacing: 0.2em;
+    text-align: justify;
+    position: relative;
+}
+
+h4.Raleway{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    color: #BFCFD4;
+}
+
+ul.navbar {
+    background-color: darkgray;
+}
+
+li.navbar {
+    display: inline-block;
+    background-color: darkgray;
+    padding: 20px 10px 20px 10px;
+}
+
+li.navbar > a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+li.navbar > a:hover{
+    background-color: white;
+    color: darkgrey;
+    text-shadow: 1px 1px lightgrey;
+}
+
+.dotted {
+    list-style-type: square;
+}
+
+.roman {
+    list-style-type: lower-roman;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+
+table.second{
+    outline: 2px solid black;
+}
+
+
+th.first, td.first {
+    border-bottom: 1px solid darkgray;
+    text-align: left;
+}
+
+th.second, td.second{
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr.first:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.gold{
+    background-color: palegoldenrod;
+}
+
+#green-background{
+    background-color: darkgreen;
+}
+
+#green-background > th {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
